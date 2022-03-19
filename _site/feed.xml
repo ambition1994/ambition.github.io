@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ambition's Blog</title>
+    <title>Ambition's Blog</title>
     <description>写一句你想写的话</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Mar 2022 19:37:00 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2022 19:37:00 +0800</lastBuildDate>
+    <pubDate>Sat, 19 Mar 2022 19:49:15 +0800</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2022 19:49:15 +0800</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>

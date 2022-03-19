@@ -1,7 +1,7 @@
 # Site settings
 title: Ambition's Blog
 SEOTitle: Ambition的博客 | Ambition's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/greg-rakozy.jpg
 email: 暂无
 description: "写一句你想写的话"
 keyword: "我的博客"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/ambition1994/ambition1994.github.io.git" # you 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "每天进步一点"
-sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
