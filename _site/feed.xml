@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Blog</title>
+    <title>ambition's Blog</title>
     <description>写一句你想写的话</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Apr 2019 17:10:45 +0800</pubDate>
-    <lastBuildDate>Sun, 21 Apr 2019 17:10:45 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sat, 19 Mar 2022 19:23:27 +0800</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2022 19:23:27 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>This is titlessss</title>
+        <description>&lt;h1 id=&quot;title&quot;&gt;Title&lt;/h1&gt;
+
+&lt;p&gt;测试一个&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Apr 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/04/21/This-is-titlessss/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/21/This-is-titlessss/</guid>
+        
+        <category>Tylor</category>
+        
+        
+      </item>
     
       <item>
         <title>This is title</title>
@@ -96,9 +111,9 @@ conda &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;tensorflow  &lt;span
 
 &lt;h2 id=&quot;anaconda-will-automatically-install-other-libs-and-toolkits-needed-by-tensorfloweg-cuda-and-cudnn-so-you-have-no-need-to-worry-about-this&quot;&gt;Anaconda will &lt;strong&gt;automatically&lt;/strong&gt; install other libs and toolkits needed by tensorflow(e.g. CUDA, and cuDNN), so you have no need to worry about this.&lt;/h2&gt;
 
-&lt;p&gt;Type in &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; to enter the python environment.&lt;/p&gt;
+&lt;p&gt;Type in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt; to enter the python environment.&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tensorflow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;When you see the version of tensorflow, such as 1.10.0, you have successfully install it.&lt;/p&gt;
 
