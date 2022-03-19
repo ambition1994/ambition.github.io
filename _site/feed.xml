@@ -5,39 +5,9 @@
     <description>写一句你想写的话</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Mar 2022 19:23:27 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2022 19:23:27 +0800</lastBuildDate>
+    <pubDate>Sat, 19 Mar 2022 19:31:29 +0800</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2022 19:31:29 +0800</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
-      <item>
-        <title>This is titlessss</title>
-        <description>&lt;h1 id=&quot;title&quot;&gt;Title&lt;/h1&gt;
-
-&lt;p&gt;测试一个&lt;/p&gt;
-</description>
-        <pubDate>Sun, 21 Apr 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/04/21/This-is-titlessss/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/21/This-is-titlessss/</guid>
-        
-        <category>Tylor</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>This is title</title>
-        <description>&lt;h1 id=&quot;title&quot;&gt;Title&lt;/h1&gt;
-
-&lt;p&gt;content&lt;/p&gt;
-</description>
-        <pubDate>Sun, 21 Apr 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/04/21/This-is-Title/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/21/This-is-Title/</guid>
-        
-        <category>Tylor</category>
-        
-        
-      </item>
     
       <item>
         <title>Install TensorFlow-GPU by Anaconda (conda install tensorflow-gpu)</title>
