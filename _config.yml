@@ -110,5 +110,5 @@ friends: [
     }
 ]
 
- kramdown:
-   math_engine: null
+kramdown:
+  math_engine: null

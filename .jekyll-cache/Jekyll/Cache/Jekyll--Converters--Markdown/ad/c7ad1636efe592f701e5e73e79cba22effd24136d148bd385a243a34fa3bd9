@@ -1,0 +1,132 @@
+I"<h1 id="the-column-space-of-a-contains-all-vectors-ax">The Column Space of A Contains All Vectors Ax</h1>
+
+<h2 id="the-rightway-of-a-matrix-multiply-a-vector">The rightway of a Matrix multiply a Vector</h2>
+
+<p><span class="kdmath">$A=\begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}$</span>
+<span class="kdmath">$A \boldsymbol x =
+  \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} 
+  \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix} = 
+  x_1  \begin{bmatrix} 2\\ 3\\ 5\\ \end{bmatrix} +
+  x_2  \begin{bmatrix} 1\\ 1\\ 7\\ \end{bmatrix} +
+  x_3  \begin{bmatrix} 3\\ 4\\ 12\\ \end{bmatrix}$</span></p>
+
+<ul>
+  <li>
+    <p>The combination of vector produce a vector.</p>
+  </li>
+  <li>
+    <p>Thinking matrix as a whole thing.</p>
+  </li>
+</ul>
+
+<h3 id="think-about-all-combinations-of-the-columns-of-a">Think about all combinations of the columns of $A$</h3>
+
+<ul>
+  <li>
+    <p>All $A \boldsymbol x$ give us a big banch of vectorx, that collection of vectors is called the column space of $A$. It’s a space, in other words, that’s the keyword there, the column space of $A$.</p>
+  </li>
+  <li>
+    <p>In this case, we got a plane.</p>
+  </li>
+  <li>
+    <p>The below column space is a <strong>line</strong> ($A$ is rank 1 matrix): 
+<span class="kdmath">$A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
+C(A) = line \\
+rank(A) = 1$</span></p>
+  </li>
+  <li>
+    <p>The rank is sort of the dimension of the column space</p>
+  </li>
+</ul>
+
+<h3 id="matrices-with-two-factor">Matrices with two factor</h3>
+
+<ul>
+  <li>Basis for the column space ($C$)</li>
+</ul>
+
+<div class="kdmath">$$
+A = CR = \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} \\
+C = \begin{bmatrix} 2 & 1\\ 3 & 1\\ 5 & 7\\ \end{bmatrix} \\
+R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}
+$$</div>
+
+<ol>
+  <li>The column rank is 2</li>
+  <li>column rank = row rank = 2, and why?</li>
+</ol>
+
+<h3 id="whats-the-row-rank-whats-the-row-space">What’s the row rank, what’s the row space?</h3>
+
+<ul>
+  <li>
+    <p>All combinations of the row is <strong>row space</strong></p>
+  </li>
+  <li>
+    <p>Two ways to get the row space</p>
+
+    <ul>
+      <li>
+        <p>transpose the matrix, and to get row space, we need to get transpose matrix’s column space</p>
+
+        <p>$R(A) = C(A^T)$</p>
+      </li>
+      <li>
+        <p>the basis for the row space is $R= \begin{bmatrix} 1 &amp; 0 &amp; 1\ 0 &amp; 1 &amp; 1\ \end{bmatrix}$</p>
+      </li>
+      <li>
+        <p>the conditions to be basis</p>
+
+        <ul>
+          <li>Independent</li>
+          <li>the combinations produce all the rows</li>
+        </ul>
+      </li>
+      <li>
+        <p>Range?</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-factorization-of-matrix">The factorization of matrix</h3>
+
+<ol>
+  <li>
+    <p>$A = CR$</p>
+  </li>
+  <li>
+    <blockquote>
+      <p>If you have a giant matrix, like size 10 to the 5th, you can’t put that into fast memory. It’s a mess. How do you deal with a matrix of size 10 to the 5th, when you cannot deal with all the entries?</p>
+
+      <p>How do you sample a matrix?</p>
+
+      <p>you want to get some typical columns.</p>
+    </blockquote>
+
+    <p>$A\boldsymbol x, x = rand(m, 1)$</p>
+
+    <p>$A(BC\boldsymbol x)$</p>
+
+    <p>$A = CUR^\prime$, $R^\prime$ is the rows of $A$</p>
+  </li>
+</ol>
+
+<h2 id="matrix-multiply-a-matrix">Matrix multiply a Matrix</h2>
+
+<ul>
+  <li>Dot product</li>
+</ul>
+
+<div class="kdmath">$$
+AB = \begin{bmatrix}  &  & \\ - & - & -\\  &  & \\ \end{bmatrix} 
+  \begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}
+$$</div>
+
+<ul>
+  <li>New way
+<span class="kdmath">$AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
+  \begin{bmatrix} - & row \ K & - \\ \end{bmatrix}$</span></li>
+</ul>
+
+:ET
