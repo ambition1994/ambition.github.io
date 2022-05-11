@@ -36,9 +36,9 @@ $$A \boldsymbol x =
 * In this case, we got a plane.
 
 * The below column space is a **line** ($A$ is rank 1 matrix): 
-  $$A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
-  C(A) = line \\
-  rank(A) = 1$$
+$$A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
+C(A) = line \\
+rank(A) = 1$$
 
 - The rank is sort of the dimension of the column space
 
@@ -93,10 +93,10 @@ R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}$$
 * Dot product
 
 $$AB = \begin{bmatrix}  &  & \\ - & - & -\\  &  & \\ \end{bmatrix} 
-  \begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}$$
+\begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}$$
 
 * New way
-  $$AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
-    \begin{bmatrix} - & row \ K & - \\ \end{bmatrix}$$
+$$AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
+\begin{bmatrix} - & row \ K & - \\ \end{bmatrix}$$
   
 
