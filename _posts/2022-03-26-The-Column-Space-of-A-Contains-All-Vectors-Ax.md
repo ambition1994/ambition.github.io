@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      The Column Space of A Contains All Vectors Ax
-subtitle:   The Column Space of A Contains All Vectors Ax
+subtitle:   
 date:       2022-03-26
 author:     Ambition
 header-img: 
