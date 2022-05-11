@@ -18,14 +18,12 @@ tags:
 
 $$A=\begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}$$
 
-$$
-A \boldsymbol x =
+$$A \boldsymbol x =
   \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} 
   \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix} = 
   x_1  \begin{bmatrix} 2\\ 3\\ 5\\ \end{bmatrix} +
   x_2  \begin{bmatrix} 1\\ 1\\ 7\\ \end{bmatrix} +
-  x_3  \begin{bmatrix} 3\\ 4\\ 12\\ \end{bmatrix}
-$$
+  x_3  \begin{bmatrix} 3\\ 4\\ 12\\ \end{bmatrix}$$
 
   - The combination of vector produce a vector.
 
@@ -48,11 +46,9 @@ $$
 
 * Basis for the column space ($C$)
 
-$$
-A = CR = \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} \\
+$$A = CR = \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} \\
 C = \begin{bmatrix} 2 & 1\\ 3 & 1\\ 5 & 7\\ \end{bmatrix} \\
-R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}
-$$
+R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}$$
 
 1. The column rank is 2
 2.  column rank = row rank = 2, and why?
@@ -96,15 +92,11 @@ $$
 
 * Dot product
 
-$$
-AB = \begin{bmatrix}  &  & \\ - & - & -\\  &  & \\ \end{bmatrix} 
-  \begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}
-$$
+$$AB = \begin{bmatrix}  &  & \\ - & - & -\\  &  & \\ \end{bmatrix} 
+  \begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}$$
 
 * New way
-  $$
-  AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
-    \begin{bmatrix} - & row \ K & - \\ \end{bmatrix}
-  $$
+  $$AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
+    \begin{bmatrix} - & row \ K & - \\ \end{bmatrix}$$
   
 
