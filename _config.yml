@@ -109,4 +109,4 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
-markdown: maruku
+markdown: kramdown
