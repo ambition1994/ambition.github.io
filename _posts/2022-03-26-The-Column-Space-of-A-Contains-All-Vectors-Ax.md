@@ -64,7 +64,7 @@ R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}$$
 
     $R(A) = C(A^T)$
 
-  * the basis for the row space is $R= \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}$
+  * the basis for the row space is $R= \begin{bmatrix} 1 & 0 & 1\\\\ 0 & 1 & 1\\\\ \end{bmatrix}$
   
   * the conditions to be basis
   
