@@ -109,6 +109,4 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
-
-kramdown:
-  math_engine: null
+markdown: maruku

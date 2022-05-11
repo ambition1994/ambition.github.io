@@ -6,6 +6,7 @@ date:       2022-03-26
 author:     Ambition
 header-img: 
 catalog: true
+use_math: true
 tags:
     - Math
     - Linear Algebra

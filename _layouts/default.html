@@ -10,6 +10,9 @@
                 }
             });
         </script>
+        {% if page.use_math %}
+        {% include mathjax_support %}
+        {% endif %}
     </head>
 {% include head.html %}
 
