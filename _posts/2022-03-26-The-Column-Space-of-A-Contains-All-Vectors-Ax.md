@@ -16,9 +16,8 @@ tags:
 
 ## The rightway of a Matrix multiply a Vector
 
-$$
-A=\begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}
-$$
+$$A=\begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}$$
+
 $$
 A \boldsymbol x =
   \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} 
@@ -39,11 +38,9 @@ $$
 * In this case, we got a plane.
 
 * The below column space is a **line** ($A$ is rank 1 matrix): 
-  $$
-  A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
+  $$A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
   C(A) = line \\
-  rank(A) = 1
-  $$
+  rank(A) = 1$$
 
 - The rank is sort of the dimension of the column space
 
