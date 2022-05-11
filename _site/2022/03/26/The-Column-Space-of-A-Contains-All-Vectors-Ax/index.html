@@ -10,6 +10,9 @@
                 }
             });
         </script>
+        <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
     </head>
 <head>
     <meta charset="utf-8">
@@ -65,24 +68,6 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
-    
-    <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    TeX: {
-        equationNumbers: {
-            autoNumber: "AMS"
-        }
-    },
-    tex2jax: {
-        inlineMath: [ ['$','$'] ],
-        displayMath: [ ['$$','$$'] ],
-        processEscapes: true,
-    }
-});
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-    
 </head>
 
 
@@ -235,13 +220,13 @@ MathJax.Hub.Config({
 
 <h2 id="the-rightway-of-a-matrix-multiply-a-vector">The rightway of a Matrix multiply a Vector</h2>
 
-<p><span class="kdmath">$A=\begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}$</span>
-<span class="kdmath">$A \boldsymbol x =
-  \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} 
+<p>\(A=\begin{bmatrix} 2 &amp; 1 &amp; 3\\ 3 &amp; 1 &amp; 4\\ 5 &amp; 7 &amp; 12\\ \end{bmatrix} , \boldsymbol x = \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix}\)
+\(A \boldsymbol x =
+  \begin{bmatrix} 2 &amp; 1 &amp; 3\\ 3 &amp; 1 &amp; 4\\ 5 &amp; 7 &amp; 12\\ \end{bmatrix} 
   \begin{bmatrix} x_1\\ x_2\\ x_3\\ \end{bmatrix} = 
   x_1  \begin{bmatrix} 2\\ 3\\ 5\\ \end{bmatrix} +
   x_2  \begin{bmatrix} 1\\ 1\\ 7\\ \end{bmatrix} +
-  x_3  \begin{bmatrix} 3\\ 4\\ 12\\ \end{bmatrix}$</span></p>
+  x_3  \begin{bmatrix} 3\\ 4\\ 12\\ \end{bmatrix}\)</p>
 
 <ul>
   <li>
@@ -263,9 +248,9 @@ MathJax.Hub.Config({
   </li>
   <li>
     <p>The below column space is a <strong>line</strong> ($A$ is rank 1 matrix): 
-<span class="kdmath">$A = \begin{bmatrix} 1 & 2 & 3\\ 1 & 2 & 3\\ 1 & 2 & 3\\ \end{bmatrix} \\
+\(A = \begin{bmatrix} 1 &amp; 2 &amp; 3\\ 1 &amp; 2 &amp; 3\\ 1 &amp; 2 &amp; 3\\ \end{bmatrix} \\
 C(A) = line \\
-rank(A) = 1$</span></p>
+rank(A) = 1\)</p>
   </li>
   <li>
     <p>The rank is sort of the dimension of the column space</p>
@@ -278,11 +263,9 @@ rank(A) = 1$</span></p>
   <li>Basis for the column space ($C$)</li>
 </ul>
 
-<div class="kdmath">$$
-A = CR = \begin{bmatrix} 2 & 1 & 3\\ 3 & 1 & 4\\ 5 & 7 & 12\\ \end{bmatrix} \\
-C = \begin{bmatrix} 2 & 1\\ 3 & 1\\ 5 & 7\\ \end{bmatrix} \\
-R = \begin{bmatrix} 1 & 0 & 1\\ 0 & 1 & 1\\ \end{bmatrix}
-$$</div>
+\[A = CR = \begin{bmatrix} 2 &amp; 1 &amp; 3\\ 3 &amp; 1 &amp; 4\\ 5 &amp; 7 &amp; 12\\ \end{bmatrix} \\
+C = \begin{bmatrix} 2 &amp; 1\\ 3 &amp; 1\\ 5 &amp; 7\\ \end{bmatrix} \\
+R = \begin{bmatrix} 1 &amp; 0 &amp; 1\\ 0 &amp; 1 &amp; 1\\ \end{bmatrix}\]
 
 <ol>
   <li>The column rank is 2</li>
@@ -351,15 +334,13 @@ $$</div>
   <li>Dot product</li>
 </ul>
 
-<div class="kdmath">$$
-AB = \begin{bmatrix}  &  & \\ - & - & -\\  &  & \\ \end{bmatrix} 
-  \begin{bmatrix}  & | & \\  & | & \\  & | & \\ \end{bmatrix}
-$$</div>
+\[AB = \begin{bmatrix}  &amp;  &amp; \\ - &amp; - &amp; -\\  &amp;  &amp; \\ \end{bmatrix} 
+  \begin{bmatrix}  &amp; | &amp; \\  &amp; | &amp; \\  &amp; | &amp; \\ \end{bmatrix}\]
 
 <ul>
   <li>New way
-<span class="kdmath">$AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
-  \begin{bmatrix} - & row \ K & - \\ \end{bmatrix}$</span></li>
+\(AB = \begin{bmatrix} | \\ col \ K \\ | \\ \end{bmatrix} 
+  \begin{bmatrix} - &amp; row \ K &amp; - \\ \end{bmatrix}\)</li>
 </ul>
 
 
