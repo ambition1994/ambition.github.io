@@ -31,7 +31,7 @@ tags:
 
 - RNN里面代价函数
     
-    > A cost $\mathcal{E}$ measures the performance of the network on some given task and it can be broken apart into individual costs for each step $\mathcal{E}=\sum_{1 \leq t \leq T} \mathcal{E}_{t}$, where $\mathcal{E}=L(X_t)$
+    > A cost $\varepsilon$ measures the performance of the network on some given task and it can be broken apart into individual costs for each step $\varepsilon=\sum_{1 \leq t \leq T} \varepsilon_{t}$, where $\varepsilon=L(X_t)$
     .
     > 
     
@@ -60,7 +60,7 @@ $$
 
 The parameters of the model are given by the recurrent weight matrix $W_{rec}$, the biases $b$ and input weight matrix $W_{in}$, collected in $\theta$  for the general case. $x_0$ is provided by the user, set to zero or learned, and $\theta$ is an element-wise function (usually the *tanh* or *sigmoid* )
 
-A cost   $\mathcal{E}$ measures the performance of the network on some given task and it can be broken apart into individual costs for each step  $\mathcal{E}=\sum_{1 \leq t \leq T}\mathcal{E}_t$ , where $\mathcal{E}_t=\mathcal{L(x_t)}$. *代价函数可以拆分成每个时间步上的代价函数.*
+A cost   $\varepsilon$ measures the performance of the network on some given task and it can be broken apart into individual costs for each step  $\varepsilon=\sum_{1 \leq t \leq T}\varepsilon_t$ , where $\varepsilon_t=L(x_t)$. *代价函数可以拆分成每个时间步上的代价函数.*
 
 - where the recurrent model is represented as **a deep multi-layer one (with an unbounded number of layers )** and **backpropagation** is applied on **the unrolled model** .
 
