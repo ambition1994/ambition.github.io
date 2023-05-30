@@ -64,7 +64,7 @@ A cost   $\mathcal{E}$ measures the performance of the network on some given tas
 
 - where the recurrent model is represented as **a deep multi-layer one (with an unbounded number of layers )** and **backpropagation** is applied on **the unrolled model** .
 
-![picture/1.png](picture/1.png)
+![](https://cdn.jsdelivr.net/gh/ambition1994/picture@main/img/202305301631337.png)
 
 $$
 \begin{equation}\frac{\partial \varepsilon}{\partial \theta}=\sum_{k \leq t \leq T} \frac{\partial \varepsilon_{t}}{\partial \theta}\end{equation}
@@ -80,6 +80,6 @@ $$
 
 ## The geometrical interpretation
 
-![picture/2.png](picture/2.png)
+![](https://cdn.jsdelivr.net/gh/ambition1994/picture@main/img/202305301632191.png)
 
 - when stochastic gradient descent (SGD) **reaches the wall** and does a **gradient descent step**, it will be forced to **jump across the valley** moving **perpendicular** to the steep walls, possibly leaving the valley and disrupting the learning process. 如果随机梯度下降的话，在到达悬崖边上，梯度会变得特别大，可能会以一个很大的步伐去远离那个山谷，就像图中的朝右的蓝色实线一样，这样会导致打断“学习”过程，寻找不到局部最优。
